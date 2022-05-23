@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' href='_css/style.css'>
+    <title>Login</title>
+</head>
+<body style="background-image: url('cachorro.png') !important;">
+    <div id='container' class="container container-lg">
+        <section class='h1-sec'>
+            <div class="card"> 
+            <h1>Login</h1>
+        </section>
+            <div class="flex">
+                <p id='msg' class="msg-p"></p>
+                <section class="flex form1">
+                    <input type='text' id='user' class="input-dados input-user" placeholder="Usuário">
+                    <input type='password' id='password' class="input-dados" placeholder="Senha">
+                </section><!-- input-sec -->
+                <section class="sec-action">
+                    <button id='btn' class="btn btn-login">Entrar</button>
+                    <section class="p-sec sec-action-position">
+                        <a href='#conteiner-cadastro' id='btn-cadastro' class="link">Não tem cadastro?</a>
+                    </section>
+                </section><!-- btn-sec -->
+            </div><!-- cont-login -->
+        </div>
+    </div><!-- container -->
+    <div id='conteiner-cadastro' class="container cont-cad">
+        <section class='h1-sec'>
+            <h3>Cadastro</h3>
+        </section>
+        <section class="form-sec">
+            <div class="form-flex">
+                <p id='msg-cad' class="msg-p"></p>
+                <input type="text" id="n-user" class='input-dados input-form' placeholder="Digite seu Usuário">
+                <input type="text" id="n-pass" class='input-dados input-form' placeholder="Digite sua Senha">
+                <input type="text" id="confirm" class='input-dados input-form' placeholder="Confirme sua Senha">
+                <section class="sec-action sec-action-position">
+                    <button id='cancelar' class="btn btn-cadastro login_btn">Cancelar</button>
+                    <button id='submit' class="btn btn-cadastro login_btn">Cadastrar</button>
+                </section>
+            </div><!-- form-->
+        </section><!-- form-sec -->
+    </div><!-- container-cadastro -->
+    <div id='login' class="login container">
+        <section class="sec-login">
+            <img src="cachorrogif.gif">
+            <h2>Login Efetuado com Sucesso!!!</h2>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='_js/script.js'></script>
+</body>
+</html>
+
+
+__                                                        
+|     \                                              |        \                                                      |  \
+ $$$$$  __          __   __         $$$$$$$$__    __          __    __    | $$  __
+   | $$ |      \ |  \  |  \ /       \ /      \          | $$  /      \  /      |  \   /  \ /      \  |      \  /      $$ |      \ 
+ | $$  $$$$$$| $$  | $$|  $$$$$$$|  $$$$$$\         | $$ |  $$$$$$|  $$$$$$\$$\ /  $$|  $$$$$$\  $$$$$$|  $$$$$$$  $$$$$$\
+|  \  | $$ /      $$| $$  | $$| $$      | $$    $$         | $$ | $$   $$| $$  | $$ $$\  $$ | $$  | $$ /      $$| $$  | $$ /      $$
+| $$| $$|  $$$$$$$| $$/ $$| $$___ | $$$$$$$$         | $$ | $$      | $$/ $$  $$ $$  | $$/ $$|  $$$$$$$| $$_| $$|  $$$$$$$
+$$    $$ $$    $$ $$    $$ $$     \ $$     \         | $$ | $$       $$    $$   $$$    $$    $$ $$    $$ $$    $$ $$    $$
+$$$$$$   $$$$$$$ $$$$$$$  $$$$$$$  $$$$$$$          $$  $$        $$$$$$     $      $$$$$$   $$$$$$$  $$$$$$$  $$$$$$$
+                 |  __| $$
+                  $$    $$
+                   $$$$$$

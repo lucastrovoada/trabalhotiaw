@@ -1,0 +1,153 @@
+body{
+    background-image: url("cansei.jpg") !important;
+    background-size:100%;
+}
+.container{
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+    height:100%;
+
+    
+}
+
+.form1{
+    margin-top: 150px;
+}
+
+
+
+
+.card {
+    background-color: black;
+    margin-top: 60px;
+    position: absolute;
+    opacity: 50%;
+    width: 300px;
+    height: 485px;
+    text-align: center;
+    margin-left: 614px;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.h1-sec{
+    padding:5px 0px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.774);
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+.input-dados{
+    margin-bottom:20px;
+    width:80%;
+    padding:15px;
+    outline:none;
+    border:none;
+    background-color:#03161d9f;
+    transition:all 1s;
+    color:white;
+}
+.input-dados:focus{
+    background-color:#03161d3a;
+}
+.sec-action{
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+.btn{
+    padding:15px;
+    outline:none;
+    color:rgba(255, 255, 255, 0.781);
+}
+.btn-login{
+    width:90%;
+    background:#549462;
+    border:1px solid #396d44;
+}
+.btn-login:hover{
+    background:#396d44;
+}
+/* mudar cor de letras placeholder */
+::-webkit-input-placeholder{
+    color:rgba(255, 255, 255, 0.767);
+}
+.p-sec{
+    position: relative;
+    top:50px;
+}
+.p-sec a{
+    color:rgb(255, 255, 255);
+}
+/* cadastro */
+.cont-cad{
+    display:none;
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-sec{
+    padding:10px 0px;
+}
+.input-form{
+    width:50%;
+}
+.sec-btn{
+    display:flex;
+    flex-wrap:wrap;
+}
+.btn-cadastro{
+    margin-bottom: 10px;
+    border:1px solid #549462;
+    background-color: #549462;
+}
+.btn-cadastro:hover{
+    background: #396d44;
+}
+/* login efetuado */
+.login{
+    display:none;
+    background-color:#084938;
+    text-align: center;
+}
+.sec-login{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    justify-content: center;
+    color:white;
+}
+.sec-login img{
+    width:20%;
+}
+.sec-login h2{
+    font-size:1.1rem;
+}
+/* mensagem de aviso */
+.msg-p{
+    font-size:1.0rem;
+    color:white;
+}
+@media screen and (min-width:800px){
+    .container{
+        width:100%;
+    }
+    .sec-action-position{
+        position: relative;
+        top:100px;
+    }
+    .login{
+        width: 100%;
+    }
+}
